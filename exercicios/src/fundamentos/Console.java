@@ -2,7 +2,7 @@ package fundamentos;
 
 import java.util.Scanner;
 
-public class Concole {
+public class Console {
 
 	public static void main(String[] args) {
 		
