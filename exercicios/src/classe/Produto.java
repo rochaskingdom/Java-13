@@ -6,6 +6,16 @@ public class Produto {
 	double preco;
 	double desconto;
 
+	Produto() {
+
+	}
+
+	Produto(String nomeInicial, double precoInicial, double descontoInicial) {
+		this.nome = nomeInicial;
+		this.preco = precoInicial;
+		this.desconto = descontoInicial;
+	}
+
 	double precoComDesconto() {
 		return this.preco * (1 - this.desconto);
 	}
